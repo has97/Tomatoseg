@@ -20,7 +20,7 @@ I have used mainly two models for more accurate segmentation of the tomatos:
 Then combination of this two models is used to  segment the occluding tomatos carefully. The structure of model that is used for Model 1 and Model 2 is U-net which is known for biomedical segmentation tasks. Model 1 is trained till it achievied an accuracy of 96.8 percent and Model 2 is trained till it achieved an accuracy of 94.8.
 
 ## Steps to run the webapp 
-The weights of the model is present in the following link : [https://drive.google.com/drive/folders/1cDI_K6aLxF9ZGPWS9weaSc96vYJFx2xa?usp=sharing] and place it in the cloned folder.
+The json file of the model can be found in the repo. Use it to train the model and place the weights of the two models in the cloned folder.
 First clone the repo and inside the folder named Tomatoseg , type the following:
 ```sh
 pip install -r requirements.txt
