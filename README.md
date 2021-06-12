@@ -1,5 +1,5 @@
 # Segementation of Tomatoes
-
+![Alt Text](https://github.com/has97/Tomatoseg/blob/master/images/tomatofield.gif)
 This is a web app which segments the tomatoes from the images that is uploaded on the web page. The tomatos are shaded in white color and the rest of the objects in the image including the background is shaded black.
 
 
